@@ -51,6 +51,60 @@ The raw supply chain dataset was initially loaded into a staging table and then 
 - `order_items`
 - `shipments`
 
+
+---
+
+## 📊 Power BI Dashboard
+
+An interactive Power BI dashboard was developed to monitor key supply chain and business performance metrics.
+
+### Key KPIs
+
+- Total Sales
+- Total Profit
+- Average Order Value (AOV)
+- Total Orders
+- Total Customers
+- Total Products
+- Products Sold
+
+### Dashboard Analysis
+
+The dashboard provides insights into:
+
+- Sales trends over time
+- Revenue by category
+- Revenue by department
+- Revenue by market
+- Order status distribution
+- Revenue by customer segment
+- Top 10 products by sales
+- Top 10 customers by revenue
+- Shipping mode performance
+- Delivery performance
+- Customer and market analysis
+
+### Interactive Filters
+
+The dashboard includes slicers for:
+
+- Category
+- Market
+- Customer Segment
+- Shipping Mode
+- Year and Month
+
+### Dashboard Preview
+
+![Supply Chain Dashboard](screenshots/supply_chain_dashboard.png)
+
+### Power BI File
+
+The Power BI dashboard file is available here:
+
+[Download Power BI Dashboard](powerbi/Supply_Chain_Analysis.pbix)
+
+
 ### Database Structure
 
 ```text
@@ -69,8 +123,6 @@ customers
 orders
     │
     └── shipments
-
-
-
+            
 
 
